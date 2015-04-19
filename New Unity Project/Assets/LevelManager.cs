@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
     // start with this level state
     public void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
 
         currentState = LevelState.None;
         towerHeight = -1;
